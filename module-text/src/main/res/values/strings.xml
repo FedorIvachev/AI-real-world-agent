@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ML Kit</string>
+
+    <string name="camera_permission_rationale">This sample app requires camera, storage, and microphone
+        permissions in order to demo the API.</string>
+
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">cancel</string>
+
+    <string name="cloud_text">Cloud Text Recognition</string>
+    <string name="textNer">TextEntityExtraction</string>
+    <string name="online_text_ner">online ner</string>
+    <string name="ner_v">Extraction</string>
+    <string name="ner_text_hint">Beijing Tiananmen Square</string>
+    <string name="select_from_album">Select image from album</string>
+    <string name="take_photo">Take photo</string>
+    <string name="video_frame">Video stream</string>
+    <string name="versions">Version:</string>
+    <string name="simplified_chinese">Simplified chinese</string>
+    <string name="english_choose">English</string>
+    <string name="japanese_choose">Japanese</string>
+    <string name="korean_choose">Korean</string>
+    <string name="latin_choose">Latin</string>
+    <string name="get_data_failed">Failed to get data.</string>
+    <string name="loading_data">Loading…</string>
+    <string name="chinese">Chinese</string>
+    <string name="nonetwork">nonetwork</string>
+    <string name="abnormal">service is abnormal</string>
+    <string name="speak_abnormal">Language and pronunciation mismatch</string>
+    <string name="replay">replay</string>
+
+    <!--全称-->
+    <string name="icr_s">ID Card Recognition</string>
+    <string name="text_detection_s">Text Recognition</string>
+    <string name="document_recognition_s">Document Recognition</string>
+    <string name="aft_s">Audio File Transcription</string>
+    <string name="bcr_s">Bank Card Recognition</string>
+    <string name="ucr_s">General Card Recognition</string>
+    <string name="asr_s">Speech Recognition</string>
+    <string name="tts_s">Text to speech</string>
+    <string name="document_skew">Document Skew Corretion</string>
+    <string name="text_embedding">Text Embedding</string>
+
+    <!--简写-->
+    <string name="document_recognition">Document</string>
+    <string name="translate">Translation</string>
+    <string name="id_card">ID card recognition</string>
+    <string name="icr_cn">Chinese second-generation ID card</string>
+    <string name="icr_vn">Vietnam ID card</string>
+    <string name="aft">AFT</string>
+    <string name="bcr">BCR</string>
+    <string name="gcr">GCR</string>
+    <string name="icr">ICR</string>
+    <string name="text_detection">Text</string>
+    <string name="asr">ASR</string>
+    <string name="asr_local_short">Offline Short ASR</string>
+    <string name="asr_local_long">Offline Long ASR</string>
+    <string name="tts">TTS</string>
+    <string name="textembedding">TEXTEMBEDDING</string>
+    <string name="speechRtt">SpeechRtt</string>
+
+    <string name="all">all</string>
+    <string name="coming_soon">coming soon</string>
+    <string name="back">back</string>
+    <string name="translate_v">Translate</string>
+    <string name="language_recognition">Language Recognition</string>
+    <string name="elapsed_time">Elapsed Time: </string>
+    <string name="zero_character"> 0 character</string>
+    <string name="translate_text_hint">Machine Learning</string>
+    <string name="intro">text to speak</string>
+    <string name="tts_hint">enter the text to be synthesized.</string>
+    <string name="queue_add">Start Speech</string>
+    <string name="play">Play Result</string>
+    <string name="release_tts">stop</string>
+    <string name="pause">pause</string>
+    <string name="resume">resume</string>
+    <string name="speak_num">Exceeded the maximum synthesis number.maximum 500</string>
+
+    <!--身份证识别-->
+    <string name="icr_upload_self_photo">Upload photos of your ID card</string>
+    <string name="icr_upload_face">Photo side</string>
+    <string name="icr_upload_back">Other side</string>
+    <string name="icr_hint_upload_valid_photo">Upload photos of your valid ID card.</string>
+    <string name="icr_hint_image_not_complete">Something may be blocking important information in the photo. Retake the photo if needed.</string>
+    <string name="icr_hint_ensure_user_info_security">Your personal information will be protected in accordance with the law.</string>
+    <string name="recognition_results">Recognition results:</string>
+    <string name="icr_mark">* Cloud service is for Chinese mainland residents only</string>
+    <string name="device_side">Device Side</string>
+    <string name="cloud_side">Cloud</string>
+    <!--通用卡证-->
+    <string name="gcr_upload_self_photo">Upload photos of your card</string>
+    <string name="gcr_upload">Upload card</string>
+    <string name="hk_pass">Hong Kong, Macao pass</string>
+    <string name="hk_id_card">Hong Kong Identity Card</string>
+    <string name="home_card">Mainland Travel Permit (Taiwan residents)</string>
+    <string name="click_to_switch"><u>Click to switch</u></string>
+    <string name="vedio_tip">Recognizing, please align the edges.</string>
+    <string name="capture_tip">Taking photo…\nKeep the edges aligned</string>
+
+    <string name="bcr_upload_self_photo">"Please upload the bank card"</string>
+    <string name="bcr_upload">Upload card</string>
+
+    <!--ATF-->
+
+    <string name="record">Record</string>
+    <string name="str_ok">OK</string>
+    <string name="converting">Converting...</string>
+    <string name="recording">Recording...</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="convert_failed">Failed:</string>
+    <string name="language">Language:</string>
+    <string name="stop_record">stop</string>
+    <string name="aft_type">Transcription Type</string>
+
+    <string name="error_aft_network">Abnormal network connection</string>
+    <string name="error_aft_internal">Internal error</string>
+    <string name="error_aft_illegal_parameters">Illegal parameter</string>
+    <string name="error_aft_authorize_failed">Authentication failed</string>
+    <string name="error_aft_audio_length_overflow">Audio length overflow</string>
+    <string name="error_aft_audio_transcript_failed">Audio transcript failed</string>
+
+    <!--先默认中文-->
+    <string name="start">start</string>
+    <string name="please_speak">Please speak</string>
+    <string name="example_say">You could say that.</string>
+    <string name="example_one">I want to take a taxi to Wanda Plazaz</string>
+    <string name="example_two">I want to see Infernal Affairs</string>
+    <string name="example_three">Where is the nearest Shentong express</string>
+    <string name="record_path">/mlkit-asr</string>
+    <string name="record_text_name">text.txt</string>
+    <string name="record_json_name">description.json</string>
+    <string name="record_pcm_name">audio.pcm</string>
+
+    <string name="error_no_network">ERROR: Network unavailable, please try again…</string>
+    <string name="error_service_unavailable">ERROR: Service Unavailable</string>
+    <string name="error_no_sound_times_exceed">ERROR: No speech detected within 6S, automatic disconnection</string>
+    <string name="error_no_understand">ERROR: The server could not parse your voice</string>
+    <string name="asr_sound_pickup_interface_type">Sound pickup interface type</string>
+    <string name="asr_sound_pickup_interface_type_plugin">ASR Plugin</string>
+    <string name="asr_sound_pickup_interface_type_custom">Custom</string>
+    <string name="asr_mark">* This service is only available for Huawei mobile phones</string>
+
+    <string name="style">Style:</string>
+    <string name="mode">Play Mode:</string>
+    <string name="volume">Volume:</string>
+    <string name="speech_rate">Speech Rate:</string>
+    <string name="queuing_mode">Queuing Mode</string>
+    <string name="clear_mode">Clear Mode</string>
+    <string name="please_enter_text">Please enter text~</string>
+
+    <string name="male_zh">Male-zh</string>
+    <string name="male_en">Male-en</string>
+    <string name="female_fr">Female-fr</string>
+    <string name="female_es">Female-es</string>
+    <string name="female_en">Female-en</string>
+    <string name="female_zh">Female-zh</string>
+    <string name="female_de">Female-de</string>
+    <string name="female_it">Female-it</string>
+    <string name="male_en_eagle">Male-en-eagle</string>
+    <string name="female_en_eagle">Female-en-eagle</string>
+    <string name="female_th">female-th</string>
+    <string name="female_ms">female-ms</string>
+    <string name="female_ph">femail-ph</string>
+
+    <string name="init_progress">50%</string>
+
+    <string name="online_translate">online translation</string>
+    <string name="offline_translate">offline translation</string>
+    <string name="speech_synthesis">Speech Synthesis</string>
+    <string name="online_tts">online tts</string>
+    <string name="offline_tts">offline tts</string>
+    <string name="download">download</string>
+    <string name="downloaded">downloaded</string>
+    <string name="can_not_get_download_mode">Unable to get downloaded model</string>
+    <string name="offline_model_management">Offline Model Management</string>
+    <string name="french">French</string>
+    <string name="spanish">Spanish</string>
+    <string name="German">German</string>
+    <string name="Indian_english">Indian English</string>
+    <string name="Italian">Italian</string>
+    <string name="Polish">Polish</string>
+    <string name="Russian">Russian</string>
+    <string name="Thai">Thai</string>
+    <string name="Pilipino">Pilipino</string>
+    <string name="Malay">Malay</string>
+
+    <string name="download_prompt">Download it from the Offline Model Management page.</string>
+    <string name="waitting">waitting</string>
+    <string name="no_wifi_prompt">You are connected to a mobile network. Downloading offline models may incur traffic fees (Contact your carrier for tariffs). Are you sure you want to continue?</string>
+    <string name="no_network_prompt">Failed to download the model because no available network is found.</string>
+
+    <string name="isr_upload_picture_tint">Please upload the picture</string>
+    <string name="isr_upload_picture">Please select the image you want to correct.</string>
+
+    <string name="prompt">Prompt</string>
+
+    <string name="destroied">Speech recognizer turned off</string>
+    <string name="you_may_speak">You may speak now</string>
+
+    <string name="sound_dect_title">Voice Recognition</string>
+    <string name="sound_dect_tips">tips:</string>
+    <string name="sound_dect_tips_value">This demo displays the voice recognition service capability. You can tap the voice detection button to enable the microphone to continuously recognize surrounding sounds. If a specified type of sound is displayed, the recognition result is displayed. Tap Stop to stop voice recognition. Currently, the voice recognition service supports 13 voice types, include infant or child cry, shout, cat bark, dog bark, water, knock, door bell, car horn, fire alarm, alarm, laughter, sneeze, and snoring.</string>
+    <string name="sound_dect_voice_type">voice type</string>
+    <string name="sound_dect_start">Voice Recognition start</string>
+    <string name="sound_dect_stop">Voice Recognition stop</string>
+    <string name="sound_dect_error">Voice Recognition error:</string>
+    <string-array name="sound_dect_voice_type">
+        <item>laughter</item>
+        <item>baby cry</item>
+        <item>snoring</item>
+        <item>sneeze</item>
+        <item>screaming</item>
+        <item>meow</item>
+        <item>bark</item>
+        <item>water</item>
+        <item>Car horn sound</item>
+        <item>doorbell</item>
+        <item>knock</item>
+        <item>Fire alarm sound</item>
+        <item>Alarm sound</item>
+    </string-array>
+
+
+    <string-array name="spingarr">
+        <item>Chinese</item>
+        <item>English</item>
+    </string-array>
+
+
+    <string name="vision">Vision:</string>
+    <string name="dimension">Dictionary Dimension:</string>
+    <string name="size">Dictionary size:</string>
+
+    <string name="asr_long_title">ASR long voice</string>
+
+    <string name="asr_recognition">speech recognition</string>
+
+    <string-array name="asr_long">
+        <item>Chinese</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string name="errorcode">errorCode：</string>
+    <string name="Others">Other errors</string>
+    <string name="no_intnet">The network is unavailable. Please try again.</string>
+    <string name="no_service">The service is unavailable.</string>
+    <string name="no_balance">Insufficient balance. Please recharge.</string>
+
+    <string name="Word_vector">Word vector：</string>
+    <string name="Words_vector">Words vector：</string>
+    <string name="Sentence_vector">Sentence vector：</string>
+    <string name="Word_similarity">Word similarity：</string>
+    <string name="sentence_similarity">Sentence similarity：</string>
+    <string name="similar_word">Similar word：</string>
+    <string name="getVisionValue">Obtaining the Dictionary Version Information</string>
+    <string name="word_vector_analysis">word vector analysis</string>
+    <string name="words_vector_analysis">words vector analysis</string>
+    <string name="sentence_vector_analysis">sentence vector analysis</string>
+    <string name="word_similarity_analysis">word similarity analysis</string>
+    <string name="sentence_similarity_analysis">sentence similarity analysis</string>
+    <string name="similar_word_analysis">similar word analysis</string>
+    <string name="getvision">get Vision：</string>
+    <string name="Parsing_Result">Parsing Result：</string>
+    <string name="vision_nlp">Vision：</string>
+
+    <string name="download_model">(Downloaded)</string>
+
+    <string name="short_nodown">The offline model has not been downloaded. Download it first.</string>
+    <string name="dect_destroy">No speech is detected for 5 seconds. Recognition ends.</string>
+    <string name="start_video">Recording started.</string>
+    <string name="dect_user">Detects that the user starts to speak.</string>
+    SR
+    <string name="offline_asr">Offline ASR</string>
+    <string name="online_asr">Online ASR</string>
+
+    <string name="short_start">Start recording</string>
+    <string name="short_stop">Stop recording</string>
+    <string name="offline_voice">Offline voice management</string>
+    <string name="return_text">Text returned here</string>
+
+    <string name="down_success">DownloadModel Success</string>
+    <string name="delete_model">DeleteModel Success</string>
+    <string name="model_complete">Model download is complete</string>
+    <string name="delete_failed">DeleteModel Failed</string>
+    <string name="aft_short">AFT Short Voice</string>
+    <string name="aft_long">AFT Long Voice</string>
+    <string name="select_file">Select file</string>
+    <string name="text_word">Entered : 0 / 500</string>
+    <string name="wording">Entered : </string>
+    <string name="tts_max_tip">The value can contain a maximum of 500 characters.</string>
+    <string name="recognitionHint" translatable="true">recognition content will be displayed here...</string>
+    <string name="startRecognitionBtn" translatable="true">start to identify</string>
+    <string name="finishRecognitionBtn" translatable="true">end recognition</string>
+    <string name="contentShow" ranslatable="true">Displayed content</string>
+    <string name="voicePlay" ranslatable="true">Speech broadcast</string>
+    <string name="english">English</string>
+    <string name="asrtext">"Speech text "</string>
+    <string name="notBroadcast">"No broadcast "</string>
+    <string name="chineseMaleVoice">"Male voice"</string>
+    <string name="chineseFemaleVoice">"Female voice"</string>
+    <string name="englishMaleVoice">"Male voice"</string>
+    <string name="englishFemaleVoice">"Female voice"</string>
+    <string name="asrText">"Speech text"</string>
+    <string name="asrTextAndTranslation">"Speech text and translated text"</string>
+    <string name="permissionStr">Go to Settings on your phone to enable storage and recording permissions.</string>
+
+
+    <string name="hiai_setting_tips" translatable="false">"提供终端设备智慧开放能力和设备信息互联管理服务"</string>
+    <string name="hiai_update_tips" translatable="false">"WLAN 下自动更新数据文件及插件"</string>
+    <string name="hiai_notice_for_oobe" translatable="false">"“华为智慧能力” 是我们为您提供终端设备智慧开放能力和设备信息互联管理功能的系统增强服务。本应用及其底层服务需&lt;b&gt;联网&lt;/b&gt;，使用您的设备信息、应用信息及网络信息，其中底层服务提供资源更新及数据采集服务。本应用会在 WLAN 环境下自动更新数据文件及插件，您可在应用设置中关闭此功能。勾选此项，即表示您同意我们向您提供终端智慧服务。个人信息处理详情，请见"</string>
+    <string name="hiai_notice_text_tv" translatable="false">"本应用及其底层服务 (提供资源更新、数据采集服务) 需%1$s，使用您的设备信息、应用信息及网络信息，用于提供终端设备智慧开放能力和设备信息互联管理服务。本应用会在 WLAN 环境下自动更新数据文件及插件，您可在应用设置中关闭此功能。打开开关，即表示您同意我们向您提供终端智慧服务。个人信息处理详情，请见"</string>
+    <string name="hiai_full_stop" translatable="false">"。"</string>
+    <string name="tv_declare_title" translatable="false">"关于华为智慧能力与隐私的声明"</string>
+    <string name="hiai_tv_update_time" translatable="false">"更新时间：2022年02月20日"</string>
+    <string name="tv_declare_statement_01" translatable="false">"“同声传译”是由华为终端有限公司（以下简称“我们”或“华为”）为您提供同声传译能力的应用。华为非常重视您的个人信息和隐私保护，我们将会按照法律要求和业界成熟的安全标准，为您的个人信息提供相应的安全保护措施。"</string>
+    <string name="tv_declare_statement_25" translatable="false">"版本变更说明"</string>
+    <string name="tv_declare_statement_26" translatable="false">"请您仔细阅读此次隐私声明的更新内容："</string>
+    <string name="tv_declare_statement_27" translatable="false">"“我们如何收集和使用您的个人信息”章节，新增“数据统计分析服务”。"</string>
+    <string name="tv_declare_statement_28" translatable="false">"“信息存储地点及期限” 章节，增加“数据统计分析服务”中所收集个人信息的存储期限。"</string>
+    <string name="tv_declare_statement_02" translatable="false">"1.我们如何收集和使用您的个人信息"</string>
+    <string name="tv_declare_statement_29" translatable="false">"我们将为您提供同声传译能力，在您使用相关业务功能的过程中，我们会处理下列提供功能所必需的信息，以便履行我们的合同义务。若您不提供相关信息，会影响到您使用本应用的相关功能。"</string>
+    <string name="tv_declare_statement_03" translatable="false">"设备信息互联管理"</string>
+    <string name="tv_declare_statement_04" translatable="false">"“设备信息互联管理”旨在为上层应用提供全场景设备信息的协同管理能力，您需要登录华为帐号才能使用此功能。为实现此功能，我们会将您的设备标识符和蓝牙 MAC 地址、设备名称、设备硬件信息、应用基本信息、应用运行记录及系统基本信息进行端云同步。这些信息将与华为帐号关联并被上传到华为服务器进行存储。为了让这些信息可以在您的所有设备上协同更新，我们可能会根据您的设备标识符、操作系统版本、当前设备用户昵称以及网络信息，向您的所有设备推送更新信息。"</string>
+    <string name="tv_declare_statement_05" translatable="false">"数据文件及插件管理"</string>
+    <string name="tv_declare_statement_06" translatable="false">"我们通过下载和更新数据文件或插件，以不断增强和提高“华为智慧能力”的服务质量，为此我们需要收集您的设备标识符、设备型号及名称、系统基本信息、系统当前时间、应用名称、应用版本号及应用使用信息、当前设备用户昵称以及网络信息，来获取适合本设备的数据资源。"</string>
+    <string name="tv_declare_statement_07" translatable="false">"为了让您可及时获取最新的服务，“华为智慧能力”可在WLAN环境下自动实现更新功能，您可以前往“设置”&gt;“通用”&gt; “高级设置” &gt; “华为智慧能力” &gt;“WLAN 下自动更新”进行设置。"</string>
+    <string name="tv_declare_statement_35" translatable="false">"数据统计分析服务"</string>
+    <string name="tv_declare_statement_36" translatable="false">"为了统计和分析功能使用情况，我们会收集您的设备标识符、应用及系统版本号、系统当前时间、设备类型、您使用本应用的信息，以优化我们的产品设计，为您提供更好服务。"</string>
+    <string name="tv_declare_statement_08" translatable="false">"2.对未成年人的保护"</string>
+    <string name="tv_declare_statement_09" translatable="false">"我们非常重视对未成年人个人信息的保护，华为将严格按照国家法律法规要求，对未成年人提供服务并对其提供保护。如果您是未成年人，需要您的父母或其他监护人同意您使用本应用，并同意相关应用的服务条款。父母或其他监护人也应采取适当的预防措施来保护未成年人，包括监督其对本应用的使用。"</string>
+    <string name="tv_declare_statement_30" translatable="false">"特别地，如果您是儿童 (不满十四周岁的未成年人)，在使用我们的服务前，请务必通知您的父母或其他监护人一起仔细阅读本声明以及我们专门制定的《华为消费者业务儿童隐私保护声明》(https://consumer.huawei.com/cn/privacy/child-policy)，并在您的父母或其他监护人同意或指导后，使用我们的服务或向我们提供信息。如果您是儿童的父母或其他监护人，请确保您监护的儿童在您的同意或指导下，使用我们的服务和向我们提供信息。"</string>
+    <string name="tv_declare_statement_10" translatable="false">"3.管理您的个人信息"</string>
+    <string name="tv_declare_statement_31" translatable="false">"华为非常尊重您对个人信息的关注，并为您提供了以下数据主体权利及选择。"</string>
+    <string name="tv_declare_statement_11" translatable="false">"您可以前往应用“设置”&gt;“应用”&gt; “应用管理”&gt;“同声传译”&gt;“权限”，关闭相关权限，以停止我们对您的个人信息的处理。"</string>
+    <string name="tv_declare_statement_12" translatable="false">"如您对您的数据主体权利有进一步要求或存在任何疑问、意见或建议，可通过本声明中“如何联系我们”章节中所述方式与我们取得联系，并行使您的相关权利。"</string>
+    <string name="tv_declare_statement_13" translatable="false">"4.信息存储地点及期限"</string>
+    <string name="tv_declare_statement_14" translatable="false">"上述信息将会传输并保存至中华人民共和国境内的服务器。"</string>
+    <string name="tv_declare_statement_15" translatable="false">"我们仅在实现本声明所述目的所必需的时间内保留您的个人信息，并在超出下述保留时间后删除或匿名化处理您的个人信息，除非法律法规另有要求。"</string>
+    <string name="tv_declare_statement_16" translatable="false">"您的个人数据具体留存时间如下："</string>
+    <string name="tv_declare_statement_17" translatable="false">在设备信息互联管理功能中，您的个人数据将在本地保存，保存期限最多为90天。</string>
+    <string name="tv_declare_statement_18" translatable="false">"在“数据文件及插件管理”功能中，为了让您可以及时获取最新的服务，在您开启该功能的期间，您的设备标识符、应用版本号及使用信息、设备类型和名称、系统基本信息会一直保存在华为服务器上；在您关闭“华为智慧能力”后，我们将及时删除上述数据。"</string>
+    <string name="tv_declare_statement_37" translatable="false">"您的设备标识符、应用及系统版本号、系统当前时间、设备类型、您使用本应用的信息将会在华为服务器保存3个月，以便我们不断优化产品设计，为您提供更好的服务体验。"</string>
+    <string name="tv_declare_statement_19" translatable="false">"您的其它个人数据不会被华为和第三方保存。"</string>
+    <string name="tv_declare_statement_20" translatable="false">"此外，当我们的产品或服务发生停止运营的情形时，我们将以推送通知、公告等形式通知您，并在合理的期限内删除您的个人信息或进行匿名化处理。"</string>
+    <string name="tv_declare_statement_21" translatable="false">"5.如何联系我们"</string>
+    <string name="tv_declare_statement_22" translatable="false">"我们指定了个人信息保护负责人，您可通过此链接 (https://consumer.huawei.com/cn/legal/privacy-questions/) 联系个人信息保护负责人，也可通过访问隐私问题页面 (https://consumer.huawei.com/cn/legal/privacy-questions/) 与我们取得联系，我们会尽快回复。"</string>
+    <string name="tv_declare_statement_23" translatable="false">"如果您对我们的回复不满意，特别是当我们的个人信息处理行为损害了您的合法权益时，您还可以通过向有管辖权的人民法院提起诉讼、向行业自律协会或政府相关管理机构投诉等外部途径进行解决。您也可以向我们了解可能适用的相关投诉途径的信息。"</string>
+    <string name="tv_declare_statement_24" translatable="false">"华为将始终遵照我们的隐私政策来收集和使用您的信息。有关我们的隐私政策，可参阅华为消费者业务隐私声明（https://consumer.huawei.com/en/legal/privacy-policy/worldwide/）。"</string>
+    <string name="more_operation_privacy" translatable="false">"隐私声明"</string>
+    <!-- tv end -->
+    <string name="hiai_permission_location" translatable="false">"位置信息"</string>
+    <string name="hiai_permission_phone" translatable="false">"电话 (设备信息)"</string>
+    <string name="hiai_permission_instructions" translatable="false">"权限使用说明"</string>
+    <string name="hiai_permission_instructions_title" translatable="false">"“%1$s”权限使用说明"</string>
+    <string name="hiai_permission_location_description" translatable="false">"用于提供基于位置的服务"</string>
+    <string name="hiai_permission_phone_device_information" translatable="false">"设备信息"</string>
+    <string name="hiai_permission_phone_device_information_description" translatable="false">"读取手机号码，作为智能候选词"</string>
+    <string name="hiai_permission_storage_description" translatable="false">"用于获取设备本地的图片信息，作为智能候选词"</string>
+    <string name="hiai_permission_message_description" translatable="false">读取信息/彩信，用于获取您的出行信息，以识别您所处的场景及姓名、车牌号等信息，作为智能候选词</string>
+    <string name="hiai_permission_contacts_description" translatable="false">"用于获取通讯录中的联系人信息，作为智能候选词"</string>
+    <string name="hiai_permission_calllog_description" translatable="false">"用于统计您的日均通话时长等信息，以提供健康使用手机提示等服务"</string>
+    <string name="hiai_permission_instructions_confirm" translatable="false">"知道了"</string>
+    <plurals name="hiai_permission_instructions_description">
+        <item quantity="other" translatable="false">"为确保正常运行，本服务启动时需申请如下 %1$d 个权限："</item>
+    </plurals>
+
+    <!-- permission reason -->
+    <string name="hiai_permission_reason_microphone" translatable="false">"用于获取用户输入的语音，以提供语音识别服务"</string>
+    <string name="hiai_permission_reason_location" translatable="false">"用于提供基于位置的服务，如情景智能中的通勤卡片"</string>
+    <string name="hiai_permission_reason_calendar" translatable="false">"用于提供日历日程提醒服务"</string>
+    <string name="hiai_permission_reason_sms" translatable="false">读取信息，用于及时获取出行信息，以识别您所处的场景和生成出行提醒卡片</string>
+    <string name="hiai_permission_reason_read_phone_state" translatable="false">"读取通话状态和电话号码，用于辅助语音拨号功能"</string>
+    <string name="hiai_permission_reason_contacts" translatable="false">"用于实现语音快速拨打电话"</string>
+    <string name="hiai_permission_reason_camera" translatable="false">"用于获取您使用本设备时的画面信息，以便识别您的使用姿态"</string>
+    <!-- permission reason end -->
+    <string name="settings_state_on" translatable="false">"已开启"</string>
+    <string name="settings_state_off" translatable="false">"已关闭"</string>
+    <string name="plugin_downloading_installing" translatable="false">"正在下载安装插件…"</string>
+    <string name="plugin_downloading_installing_progress" translatable="false">"正在下载安装插件…\n(%1$d/%2$d)"</string>
+    <string name="plugin_updating" translatable="false">"正在更新插件…"</string>
+    <string name="plugin_updating_progress" translatable="false">"正在更新插件…\n(%1$d/%2$d)"</string>
+    <string name="file_updating_progress" translatable="false">"正在更新数据文件…\n(%1$d/%2$d)"</string>
+    <string name="plugin_install_failed" translatable="false">"安装失败"</string>
+    <string name="plugin_install_complete" translatable="false">"安装完成"</string>
+    <string name="downloading_installing_plugins" translatable="false">"正在下载安装%1$s所需插件…"</string>
+    <string name="updating_files" translatable="false">"正在更新%1$s所需数据文件…"</string>
+    <string name="update_file_failed" translatable="false">"%1$s所需数据文件更新失败"</string>
+    <string name="update_file_completed" translatable="false">"%1$s所需数据文件更新完成"</string>
+    <plurals name="install_failure_plugins">
+        <item quantity="other" translatable="false">"%1$d 个%2$s所需插件安装失败"</item>
+    </plurals>
+    <plurals name="update_failure_plugins">
+        <item quantity="other" translatable="false">"%1$d 个%2$s所需插件更新失败"</item>
+    </plurals>
+    <plurals name="update_failure_files">
+        <item quantity="other" translatable="false">"%1$d 个%2$s所需数据文件更新失败"</item>
+    </plurals>
+    <plurals name="plugin_install_failed_detail">
+        <item quantity="other" translatable="false">"%1$d 个插件安装失败"</item>
+    </plurals>
+    <plurals name="plugin_update_failed_detail">
+        <item quantity="other" translatable="false">"%1$d 个插件更新失败"</item>
+    </plurals>
+
+    <string name="hiai_notice_text_watch" translatable="false">"本应用及其底层服务 (资源更新及数据采集) 需%1$s，使用您的华为帐号、设备、网络及应用信息，用于提供终端设备智慧开放能力和设备信息互联管理服务。本应用会在 WLAN 环境下自动为您更新数据文件及插件管理，您可随时通过应用内的设置关闭此功能 。打开开关，即表示您同意我们向您提供终端智慧服务。有关个人信息处理详情，请参阅%2$s。"</string>
+    <string name="hiai_privacy_detail_watch" translatable="false">请先打开手机运动健康 App，再点击手表的“从手机打开”按钮，在手机上查看《关于华为智慧能力与隐私的声明》。</string>
+    <string name="hiai_privacy_open_watch" translatable="false">"从手机打开"</string>
+    <string name="updating_plugins_watch" translatable="false">"正在更新%1$s所需插件…"</string>
+    <string name="enhance_service_watch" translatable="false">“增强服务”</string>
+    <string name="privacy_update_title_watch" translatable="false">“增强服务”更新了关于华为智慧能力与隐私的声明。</string>
+    <string name="privacy_update_detail_watch" translatable="false">"“增强服务”已更新。详细内容请参阅最新的&lt;a&gt;关于华为智慧能力与隐私的声明&lt;/a&gt;。"</string>
+    <string name="nitification_agree_btn_watch" translatable="false">同意</string>
+    <string name="nitification_disagree_btn_watch" translatable="false">不同意</string>
+    <string name="dialog_view_details_btn_watch" translatable="false">查看</string>
+    <string name="dialog_confirm_btn_watch" translatable="false">确认</string>
+    <string name="dialog_cancel_btn_watch" translatable="false">取消</string>
+    <string name="repeated_confirm_privacy_watch" translatable="false">若不同意本声明，将无法继续使用本服务的相关功能。确定不同意？</string>
+    <!-- watch string end -->
+
+    <string name="hiai_notice_text" translatable="false">"本服务及其底层服务 (提供文字处理、资源更新、数据采集及管理服务) 需%1$s，调用%2$s、%3$s、%4$s、%5$s、%6$s、%7$s权限，使用您的位置、网络、应用、华为帐号、设备信息及运动健康信息，并在本地分析第三方应用界面信息，用于提供终端设备智慧开放能力和设备信息互联管理服务。打开开关，即表示您同意我们向您提供终端智慧服务。有关个人信息处理详情，请参阅%8$s、%9$s。"</string>
+    <string name="hiai_notice_text_bloom" translatable="false">"本服务需%2$s，获取设备、应用及网络信息，用于提供终端设备智慧开放能力。打开开关，即表示您同意上述内容及%1$s。"</string>
+    <string name="hiai_oobe_notice_text" translatable="false">"“%1$s”是我们为您提供终端设备智慧开放能力和设备信息互联管理功能的系统增强服务。本服务及其底层服务需&lt;b&gt;联网&lt;/b&gt;，调用&lt;b&gt;存储、电话 (设备信息)、位置信息、通讯录、信息、通话记录&lt;/b&gt;权限，使用您的位置、网络、应用、华为帐号、设备信息及运动健康信息，并在本地分析第三方应用界面信息，其中底层服务提供文字处理、资源更新、数据采集及管理服务。本应用会在 Wi-Fi 环境下自动为您更新数据文件及插件管理，您可随时通过应用内的设置关闭此功能。勾选此项，即表示您同意我们向您提供终端智慧服务。有关个人信息处理详情，请参阅&lt;a&gt;%2$s&lt;/a&gt;、&lt;a&gt;%3$s&lt;/a&gt;。"</string>
+    <string name="hiai_oobe_notice_text_bloom" translatable="false">"“%1$s”是我们为您提供终端设备智慧开放能力的系统增强服务。本服务需&lt;b&gt;联网&lt;/b&gt;，使用您的设备、应用及网络信息。本应用会在 Wi-Fi 环境下自动为您更新数据文件及插件管理，您可随时通过应用内的设置关闭此功能。勾选此项，即表示您同意我们向您提供终端智慧服务。有关个人信息处理详情，请参阅&lt;a&gt;%2$s&lt;/a&gt;。"</string>
+    <string name="hiai_notice_text_bloom_new" translatable="false">本服务需%2$s，使用您的设备、应用及网络信息，用于提供终端设备智慧开放能力。打开开关，即表示您同意我们向您提供终端智慧服务。有关个人信息处理详情，请参阅%1$s。</string>
+    <string name="agree" translatable="false">同意</string>
+    <string name="un_agree" translatable="false">取消</string>
+    <string name="masking_face" translatable="false">面部蒙版</string>
+    <string name="masking_face_switchover" translatable="false">体验反馈</string>
+    <string name="know" translatable="false">我已知悉上述声明</string>
+    <string name="feedback" translatable="false">反馈</string>
+    <string name="testSi">同声传译</string>
+
+
+
+
+
+    <string name="cloud_classification">Cloud Image Classification</string>
+
+    <string name="more_face_data">Show more facial data</string>
+
+    <string name="load_pictures">Load pictures</string>
+
+    <string name="image_segmentation_s">Image Segmentation</string>
+    <string name="photographed_shopping_s">Product Visual Search</string>
+    <string name="photographed_shopping_s_plugin">Product Visual Search Plugin</string>
+    <string name="face_detection_s">Face Detection</string>
+    <string name="object_detection_s">Object Detection and Tracking</string>
+    <string name="image_classification_s">Image Classification</string>
+    <string name="landmark_s">Landmark Recognition</string>
+
+    <string name="image_segmentation">Segmentation</string>
+    <string name="image_hair">Hair</string>
+    <string name="photographed_shopping">Shopping</string>
+    <string name="face_detection">Face</string>
+    <string name="object_detection">Object</string>
+    <string name="image_classification">Classification</string>
+    <string name="landmark">Landmark</string>
+    <string name="skeleton">Skeleton</string>
+
+
+    <string name="background_substitution">Substitution</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="cutout">Cutout</string>
+    <string name="cut">Cut</string>
+    <string name="cut_success">Cut success</string>
+    <string name="save_success">Save success</string>
+
+    <string name="replace_background">Background</string>
+    <string name="save">Save</string>
+    <string name="please_select_picture">Please select a picture to process~</string>
+    <string name="click_add_picture">Click to add picture~</string>
+    <string name="no_pic_neededSave">Null Image needed to save</string>
+
+    <string name="target_object">Object</string>
+    <string name="color">Color</string>
+
+    <string name="similar_products">Similar Products</string>
+    <string name="productInfo">Found the following similar products</string>
+    <string name="empty">Empty</string>
+    <string name="empty_product">"No similar products, please stay tuned!"</string>
+
+
+    <!-- image super resolution-->
+    <string name="image_super_resolution">Image Super Resolution</string>
+    <string name="image_super_resolution_s">ISR</string>
+    <string name="isr_image_width">width:&#160;</string>
+    <string name="isr_image_height">height:&#160;</string>
+    <string name="isr_image_1x">1PX</string>
+    <string name="isr_image_3x">3PX</string>
+    <string name="isr_image_original">Original</string>
+    <string name="tips">Tips</string>
+    <string name="isr_tips_content">Before using the image overcommitment service, you need to convert images into ARGB bitmaps. After the service processes the images, the ARGB bitmaps are output. In the 3x overcommitment scenario, the maximum size of the input image is 800 pixels x 800 pixels, and the minimum length of the input image must be greater than or equal to 64 pixels. In the 1X overcommitment scenario, the maximum size of the input image is 1024 pixels x 768 pixels or 768 pixels x 1024 pixels. The minimum length of the input image must be greater than or equal to 64 pixels. The image quality is not obvious when the input image is of good definition. </string>
+
+    <string name="text_super_resolution">Text Image Super Resolution</string>
+    <string name="text_super_resolution_s">TISR</string>
+    <string name="tsr_tips_content">Before using the text and image overcommitment service, you need to convert images into ARGB bitmaps. After the service processes the images, the ARGB bitmaps are output. Text image overcommitment supports only 3x overcommitment. The maximum size of the input image is 800 pixels x 800 pixels, and the minimum size of the long side is no less than 64 pixels. The image quality is not obvious when the input image is of good definition.</string>
+
+    <string name="cust_model">CustModel</string>
+    <string name="cust_model_title">Model Executor</string>
+    <string name="cust_model_notice1">Click to select Picture.</string>
+    <string name="cust_model_notice2">Please select a picture for reasoning.</string>
+    <string name="cust_model_notice3">The model is ready, please select a picture.</string>
+    <string name="cust_model_download">Download model</string>
+
+    <string name="cust_model_type1">label</string>
+    <string name="cust_model_type2">object</string>
+
+    <string name="scene_detection">Scene Detection</string>
+    <string name="set_up">Sets the maximum number of returned results.:</string>
+    <string name="set_hiht">Please enter an integer from 0 to 100</string>
+
+    <string name="select">Select</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="table">Table Recognition</string>
+    <string name="form_recognition">Form Recognition</string>
+    <string name="from_pic">Please upload the picture</string>
+    <string name="recognition">Recognition</string>
+    <string name="teble_error">Failed to check the table. Change the table image.</string>
+
+    <string name="Information_permission">Obtaining related permissions: Camera permissions failed. Some functions cannot be used properly. You need to manually grant permissions on the settings page. </string>
+    <string name="go_authorization">Go Authorization</string>
+
+
+    <string name="sample_awareness_description">HUAWEI Awareness Process Demonstration</string>
+    <string name="clear_log">clear log</string>
+    <string name="awareness_capture_sample">Awareness Capture Sample</string>
+    <string name="awareness_barrier_sample">Awareness Barrier Sample</string>
+    <string name="awareness_getTimeCategories">get Time Categories</string>
+    <string name="awareness_getHeadsetStatus">get Headset Status</string>
+    <string name="awareness_getLocation">get Location</string>
+    <string name="awareness_getBehaviorStatus">get Behavior Status</string>
+    <string name="awareness_getAmbientLightIntensity">get Light Intensity</string>
+    <string name="awareness_getWeatherStatus">get Weather Status</string>
+    <string name="awareness_getBluetoothStatus">get Bluetooth Status</string>
+    <string name="awareness_getBeaconStatus">get Beacon Status</string>
+    <string name="awareness_deleteBarrier">delete Barrier</string>
+    <string name="awareness_headsetBarrier">Headset Barrier Sample</string>
+    <string name="awareness_headsetBarrier_keeping">add HeadsetBarrier(keep connected)</string>
+    <string name="awareness_headsetBarrier_connecting">add HeadsetBarrier(connecting)</string>
+    <string name="awareness_headsetBarrier_disconnecting">add HeadsetBarrier(disconnecting)</string>
+    <string name="awareness_locationBarrier">Location Barrier Sample</string>
+    <string name="awareness_locationBarrier_enter">add LocationBarrier(enter)</string>
+    <string name="awareness_locationBarrier_stay">add LocationBarrier(stay)</string>
+    <string name="awareness_locationBarrier_exit">add LocationBarrier(exit)</string>
+    <string name="awareness_bluetoothBarrier">Bluetooth Barrier Sample</string>
+    <string name="awareness_bluetoothBarrier_keeping">add BluetoothBarrier(keep connected)</string>
+    <string name="awareness_bluetoothBarrier_connecting">add BluetoothBarrier(connecting)</string>
+    <string name="awareness_bluetoothBarrier_disconnecting">add BluetoothBarrier(disconnecting)</string>
+    <string name="awareness_timeBarrier">Time Barrier Sample</string>
+    <string name="awareness_timeBarrier_inSunriseOrSunsetPeriod">add TimeBarrier(inSunriseOrSunsetPeriod)</string>
+    <string name="awareness_timeBarrier_duringPeriodOfDay">add TimeBarrier(duringPeriodOfDay 11am to 12am)</string>
+    <string name="awareness_timeBarrier_duringTimePeriod">add TimeBarrier(duringTimePeriod)</string>
+    <string name="awareness_timeBarrier_duringPeriodOfWeek">add TimeBarrier(duringPeriodOfWeek Monday 9am to 12am)</string>
+    <string name="awareness_timeBarrier_inTimeCategory">add TimeBarrier(inTimeCategory Weekends)</string>
+    <string name="awareness_behaviorBarrier">Behavior Barrier Sample</string>
+    <string name="awareness_behaviorBarrier_keeping">add BehaviorBarrier(keep still)</string>
+    <string name="awareness_behaviorBarrier_beginning">add BehaviorBarrier(begin walking)</string>
+    <string name="awareness_behaviorBarrier_ending">add BehaviorBarrier(end cycling)</string>
+    <string name="awareness_ambientLightBarrier">AmbientLight Barrier Sample</string>
+    <string name="awareness_ambientLightBarrier_range">add ambientLightBarrier(range)</string>
+    <string name="awareness_ambientLightBarrier_above">add ambientLightBarrier(above)</string>
+    <string name="awareness_ambientLightBarrier_below">add ambientLightBarrier(below)</string>
+    <string name="awareness_beaconBarrier">Beacon Barrier Sample</string>
+    <string name="awareness_beaconBarrier_discover">add beaconBarrier(discover)</string>
+    <string name="awareness_beaconBarrier_missed">add beaconBarrier(missed)</string>
+    <string name="awareness_beaconBarrier_keep">add beaconBarrier(keep)</string>
+    <string name="awareness_barrierCombination">Barrier Combination Sample</string>
+    <string name="awareness_barrierCombination_behavior_headset">add combinedBarrier(behavior and headset)</string>
+    <string name="awareness_barrierCombination_time_bluetooth">add combinedBarrier(time and bluetooth)</string>
+
+
+
+    <string name="eyes_gpt">EyesGPT</string>
+
+</resources>

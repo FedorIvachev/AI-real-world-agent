@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid background color of the rectangle -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Setting the corners' radius will give the rectangle rounded corners -->
+    <corners android:radius="16dp" />
+
+    <!-- Optional: You can add a stroke (border) if you like -->
+    <stroke android:width="0.5dp" android:color="@color/common_line_color" />
+
+    <!-- Padding to ensure the text doesn't touch the rectangle's edges -->
+    <padding android:left="16dp" android:top="8dp" android:right="16dp" android:bottom="8dp" />
+</shape>

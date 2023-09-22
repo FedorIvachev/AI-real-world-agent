@@ -1,0 +1,182 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId 'com.eyesgpt'
+        minSdkVersion 26
+        targetSdkVersion 31
+        versionCode 3700300
+        versionName "3.7.0.300"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        packagingOptions {
+            pickFirst 'lib/arm64-v8a/libml-vadenergy.so'
+            pickFirst 'lib/armeabi-v7a/libml-vadenergy.so'
+        }
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = ['mslite', 'json']
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.aar','*.jar'])
+
+    implementation 'com.huawei.hms:ml-computer-vision-cloud:3.7.0.302'
+
+    // Text recognition.
+    implementation 'com.huawei.hms:ml-computer-vision-ocr:3.8.0.303'
+    implementation 'com.huawei.hms:ml-computer-vision-ocr-cn-model:3.8.0.303'
+    implementation 'com.huawei.hms:ml-computer-vision-ocr-jk-model:3.8.0.303'
+    implementation 'com.huawei.hms:ml-computer-vision-ocr-latin-model:3.8.0.303'
+
+
+    // Text Embedding
+    implementation 'com.huawei.hms:ml-nlp-textembedding:3.8.0.303'
+
+    // General card recognition .
+    implementation 'com.huawei.hms:ml-computer-card-gcr-plugin:3.7.0.303'
+
+    // Chinese ID card recognition.
+    implementation 'com.huawei.hms:ml-computer-card-icr-cn:3.7.0.303'
+
+    // Vietnam ID card recognition fullSDK.
+    implementation 'com.huawei.hms:ml-computer-card-icr-vn:3.7.0.303'
+
+    // Bank card recognition .
+    implementation 'com.huawei.hms:ml-computer-card-bcr:3.7.0.302'
+
+    // Audio file transcription.
+    implementation 'com.huawei.hms:ml-computer-voice-aft:3.7.0.301'
+
+    // download.
+    implementation 'com.huawei.hms:ml-computer-model-download:3.7.0.302'
+
+    // Text to speech.
+    implementation 'com.huawei.hms:ml-computer-voice-tts:3.7.0.303'
+    implementation 'com.huawei.hms:ml-computer-voice-tts-model-bee:3.6.0.300'
+    implementation 'com.huawei.hms:ml-computer-voice-tts-model-eagle:3.6.0.300'
+
+
+    // Automatic speech recognition Long voice.
+    implementation 'com.huawei.hms:ml-computer-voice-realtimetranscription:3.7.0.301'
+
+    // Automatic speech recognition
+    implementation 'com.huawei.hms:ml-computer-voice-asr:3.7.0.301'
+    implementation 'com.huawei.hms:ml-computer-voice-asr-plugin:3.7.0.301'
+
+    // sisdk
+    implementation 'com.huawei.hms:ml-computer-si-sdk:3.7.0.302'
+
+    // Text translation.
+    implementation 'com.huawei.hms:ml-computer-language-detection:3.7.0.301'
+    implementation 'com.huawei.hms:ml-computer-language-detection-model:3.7.0.301'
+    implementation 'com.huawei.hms:ml-computer-translate:3.7.0.301'
+    implementation 'com.huawei.hms:ml-computer-translate-model:3.7.0.301'
+
+    // Sound Dect.
+    implementation 'com.huawei.hms:ml-speech-semantics-sounddect-model:3.5.0.302'
+    implementation 'com.huawei.hms:ml-speech-semantics-sounddect-sdk:3.5.0.302'
+
+    // Text ner
+    implementation 'com.huawei.hms:ml-computer-ner:3.7.0.301'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.2.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    // From module-vision :
+
+    // image segmentation
+    implementation 'com.huawei.hms:ml-computer-vision-segmentation:3.7.0.302'
+    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-body-model:3.7.0.302'
+    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-multiclass-model:3.7.0.302'
+    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-hair-model:3.7.0.302'
+
+    // classification
+    implementation 'com.huawei.hms:ml-computer-vision-classification:3.7.0.301'
+    implementation 'com.huawei.hms:ml-computer-vision-image-classification-model:3.7.0.301'
+
+    // object detection
+    implementation 'com.huawei.hms:ml-computer-vision-object-detection-model:3.7.0.301'
+
+    // image super resolution
+    implementation'com.huawei.hms:ml-computer-vision-imagesuperresolution:3.7.0.302'
+    implementation'com.huawei.hms:ml-computer-vision-imagesuperresolution-model:3.5.0.301'
+
+    // text image super resolution
+    implementation'com.huawei.hms:ml-computer-vision-textimagesuperresolution:3.7.0.301'
+    implementation'com.huawei.hms:ml-computer-vision-textimagesuperresolution-model:3.7.0.301'
+
+    //product-visual-search-plugin
+    implementation 'com.huawei.hms:ml-product-visual-search-plugin:3.7.0.302'
+
+    // scene detection
+    implementation 'com.huawei.hms:ml-computer-vision-scenedetection:3.7.0.303'
+    implementation 'com.huawei.hms:ml-computer-vision-scenedetection-model:3.7.0.303'
+
+    // form recognition
+    implementation 'com.huawei.hms:ml-computer-vision-formrecognition-model:3.7.0.301'
+    implementation 'com.huawei.hms:ml-computer-vision-formrecognition:3.7.0.301'
+
+    // Document skew correction.
+    implementation 'com.huawei.hms:ml-computer-vision-documentskew:3.7.0.301'
+    implementation 'com.huawei.hms:ml-computer-vision-documentskew-model:3.7.0.301'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
+    implementation 'it.sephiroth.android.library.imagezoom:imagezoom:2.3.0'
+
+
+    // Eyesgpt
+
+    // https://github.com/CJCrafter/ChatGPT-Java-API
+    implementation("com.cjcrafter:openai:1.3.1")
+
+    // Azure Speech Service
+    implementation 'com.microsoft.cognitiveservices.speech:client-sdk:1.31.0'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // Location services
+    implementation 'com.huawei.hms:site:6.5.1.301'
+    implementation 'com.huawei.hms:location:6.11.0.301'
+
+
+    // Awareness
+    implementation 'com.huawei.hms:awareness:3.7.0.300'
+}
