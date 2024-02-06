@@ -1,4 +1,3 @@
-# ClarifAI
 ## Setup
 To build and run the app, you will need:
 1. An Android 10 or later device with Huawei Mobile Services installed (doesn't need to be a Huawei device)
